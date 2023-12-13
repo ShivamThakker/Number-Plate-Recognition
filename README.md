@@ -16,6 +16,6 @@ The following command can be used to train the network from scratch
 
 ```shellscript
 $ mkdir models
-$ python create-model.py eccv models/eccv-model-scracth
-$ python train-detector.py --model models/eccv-model-scracth --name my-trained-model --train-dir samples/train-detector --output-dir models/my-trained-model/ -op Adam -lr .001 -its 300000 -bs 64
+$ python create-model.py eccv models/eccv-model-scratch
+$ python train-detector.py --model models/eccv-model-scratch --name my-trained-model --train-dir samples/train-detector --output-dir models/my-trained-model/ -op Adam -lr .001 -its 300000 -bs 64
 ```
