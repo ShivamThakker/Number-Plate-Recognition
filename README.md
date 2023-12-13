@@ -5,3 +5,6 @@ Run the code by executing following steps
 ```shellscript
 $ cd darknet && make
 ```
+```shellscript
+$ bash get-networks.sh
+```
