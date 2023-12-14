@@ -8,9 +8,8 @@ $ cd darknet && make
 ```shellscript
 $ bash get-networks.sh
 ```
-
 ```shellscript
-$ bash get-networks.sh && bash run.sh -i samples/test -o /tmp/output -c /tmp/output/results.csv
+$ bash run.sh -i samples/test -o /tmp/output -c /tmp/output/results.csv
 ```
 The following command can be used to train the network from scratch
 
