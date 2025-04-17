@@ -2,11 +2,11 @@ import sys
 import cv2
 import numpy as np
 
-from glob						import glob
-from os.path 					import splitext, basename, isfile
-from src.utils 					import crop_region, image_files_from_folder
-from src.drawing_utils			import draw_label, draw_losangle, write2img
-from src.label 					import lread, Label, readShapes
+from glob import glob
+from os.path import splitext, basename, isfile
+from src.utils import crop_region, image_files_from_folder
+from src.drawing_utils import draw_label, draw_losangle, write2img
+from src.label import lread, Label, readShapes
 
 from pdb import set_trace as pause
 
