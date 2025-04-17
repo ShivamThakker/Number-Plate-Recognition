@@ -5,10 +5,10 @@ import traceback
 
 import darknet.python.darknet as dn
 
-from src.label 				import Label, lwrite
-from os.path 				import splitext, basename, isdir
-from os 					import makedirs
-from src.utils 				import crop_region, image_files_from_folder
+from src.label import Label, lwrite
+from os.path import splitext, basename, isdir
+from os import makedirs
+from src.utils import crop_region, image_files_from_folder
 from darknet.python.darknet import detect
 
 
